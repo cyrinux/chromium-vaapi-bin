@@ -6,7 +6,7 @@ Binaries for AUR package [chromium-vaapi-bin][1].
 
 ```
 $ docker pull maximbaz/arch-build-aur
-$ docker run --rm -v $(pwd):/pkg maximbaz/arch-build-aur /bin/bash -c '/build.sh chromium-vaapi'
+$ docker run --rm -v $(pwd):/pkg maximbaz/arch-build-aur /bin/bash -c '/build-aur chromium-vaapi'
 ```
 
 
